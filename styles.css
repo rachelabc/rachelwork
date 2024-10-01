@@ -1,0 +1,142 @@
+body {
+    background-color: #E5E7FF;
+}
+
+.top {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7FF;
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.headshot {
+    width: 350px;
+    height: auto;
+    margin-right: 60px;
+
+
+}
+
+.headshot:hover {
+    transform: scale(1.1);
+}
+
+
+.about {
+    max-width: 689px;
+    max-height: 424px;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.about:hover {
+    transform: scale(1.1);
+}
+
+.extra-bold-title {
+    margin-top: 10px;
+    font-family: 'Sonsie One', cursive;
+    font-size: 50px;
+    text-align: left;
+    /* Left-align the title */
+    margin-bottom: 20px;
+
+    margin-left: 30px;
+
+
+    /* Space below the title */
+}
+
+.about .about-bio-one {
+
+    /* Make the specific bio paragraph bold */
+    font-size: 20px;
+    font-family: "Rambla";
+    /* Slightly larger size for the bio paragraph */
+    color: #000000;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+.about .about-bio-two {
+
+    /* Make the specific bio paragraph bold */
+    font-size: 20px;
+    font-family: "Rambla";
+    /* Slightly larger size for the bio paragraph */
+    color: #000000;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+.about .about-bio-three {
+
+    /* Make the specific bio paragraph bold */
+    font-size: 20px;
+    font-family: "Rambla";
+    /* Slightly larger size for the bio paragraph */
+    color: #000000;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+
+.linkedin-button {
+    display: block;
+    margin: 10px 20px 0 60px;
+    padding: 5px 30px;
+    background: linear-gradient(to right, #FFDFDF, #FFF7ED);
+    color: rgb(0, 0, 0);
+    stroke: #000000;
+    stroke-width: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "Rambla";
+    width: 224px;
+    height: 46px;
+    letter-spacing: 2px;
+
+}
+
+.linkedin-button:hover {
+    transform: scale(1.1);
+}
+
+.banner {
+    display: flex;
+    /* Add this line */
+    max-width: 3500px;
+    max-height: 82px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background: linear-gradient(to right, #80568d, #edd4f4);
+    font-size: 25px;
+    font-family: "Rambla";
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    align-items: center;
+}
+
+.mycatyayy {
+    margin-left: 250px;
+    margin-top: 100px;
+}
