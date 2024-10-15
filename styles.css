@@ -1,5 +1,8 @@
 body {
     background-color: #E5E7FF;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .top {
@@ -199,30 +202,19 @@ body {
 
 .palette_cover_page {
     display: flex;
-    /* Enable Flexbox */
     justify-content: center;
-    /* Center the image horizontally */
     align-items: center;
-    /* Center the image vertically (if needed) */
     width: 100%;
-    /* Make sure the container takes full width */
     max-width: 1300px;
-    /* Set maximum width of the container */
     margin-top: 50px;
-    /* Top margin */
     margin-left: 200px;
-    /* Left margin */
 }
 
 .palette_cover_page img {
     width: 100%;
-    /* Make the image responsive */
     height: auto;
-    /* Maintain aspect ratio */
     border-radius: 10px;
-    /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Shadow effect */
 }
 
 
@@ -298,4 +290,47 @@ h3 {
 h4 {
     font-size: 30px;
     font-family: "Rambla";
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    font-family: "Rambla";
+
+
+}
+
+.navbar-name a {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Sonsie One', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+}
+
+.navbar-links li {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.navbar-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #c37eff;
 }
