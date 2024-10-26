@@ -8,7 +8,7 @@ body {
 .top {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 3px;
     display: flex;
     justify-content: center;
     background-color: #E5E7FF;
@@ -17,7 +17,6 @@ body {
     align-items: center;
     display: flex;
     flex-direction: row;
-    /* Aligns the inner divs side by side */
     align-items: center;
     margin-bottom: 70px;
 
@@ -32,6 +31,7 @@ body {
     align-items: center;
     /* Centers both the image and buttons */
     text-align: center;
+    padding: 30px;
 }
 
 
