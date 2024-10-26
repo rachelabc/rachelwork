@@ -264,12 +264,6 @@ body {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-button:hover {
-    background-color: #80568d;
-
-    color: #ffffff;
-
-}
 
 .palette_cover_page {
     display: flex;
