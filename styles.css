@@ -173,7 +173,8 @@ body {
 
     background: linear-gradient(to right, #80568d, #edd4f4);
     font-size: 40px;
-    font-family: "Rambla";
+    font-family: "Raleway";
+    font-weight: 700;
     text-align: center;
     color: hsl(0, 0%, 100%);
     align-items: center;
@@ -203,104 +204,150 @@ body {
 }
 
 .banner {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 
 }
 
-.project-section {
-    text-align: center;
-    /* Centers all content */
+.project-wrapper {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Example: light gray background */
     padding: 20px;
+    /* Add padding to create space around content */
+    border-radius: 10px;
+    /* Optional: add rounded corners */
+    opacity: 20;
+}
+
+.project-section {
+    display: flex;
+    /* Use flexbox for the section */
+    flex-direction: column;
+    /* Stack children vertically */
     align-items: center;
-    justify-content: center;
+    /* Center items horizontally */
+    margin-top: 30px;
+    /* Center items vertically if needed */
+    padding: 20px;
+    /* Padding around the section */
+    text-align: center;
+    /* Center all text */
+
+
+
 }
 
 
 .projects {
     display: flex;
-
+    /* Flexbox for project items */
     align-items: center;
+    /* Center items vertically */
     justify-content: center;
+    /* Center items horizontally */
     gap: 60px;
+    /* Space between project items */
+    margin-bottom: 20px;
+    /* Space below projects for learn more text */
+
 
 
 }
 
 .room_cover {
     max-width: 100%;
-    /* Makes sure images scale properly */
-    align-items: center;
-
+    /* Ensure images scale properly */
 }
 
 .project-item {
     display: flex;
+    /* Use flexbox for the project item */
     flex-direction: column;
+    /* Stack image and button vertically */
     align-items: center;
-    /* center-aligns image and button horizontally */
-    justify-content: center;
-    /* center-aligns items vertically */
+    /* Center-align image and button */
     text-align: center;
-
+    /* Center text */
 }
-
-
 
 .project-button {
     cursor: pointer;
+    /* Pointer cursor on hover */
     padding: 10px 20px;
+    /* Button padding */
     background-color: #ffffff;
+    /* Button background color */
     color: rgb(0, 0, 0);
+    /* Button text color */
     border: none;
-    border-radius: 20px;
+    /* No border */
+    border-radius: 10px;
+    /* Rounded corners */
     font-size: 20px;
-    font-family: 'Rambla';
+    /* Button font size */
+    font-family: 'Raleway';
+    /* Button font */
     margin-top: 20px;
-    transition: background-color 0.3s, color 0.3s;
-    margin-top: 20px;
-    border: none;
+    /* Space between button and image */
     width: 351px;
+    /* Fixed width for the button */
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    /* Button shadow */
+    transition: background-color 0.3s, color 0.3s;
+    /* Button hover effects */
 }
 
 .project-button:hover {
-    background-color: #80568d;
 
+
+    background-color: #80568D;
     color: #ffffff;
-
 }
 
-.project-button-back {
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: 'Rambla';
-    margin-top: 20px;
-    margin-left: 40px;
-    transition: background-color 0.3s, color 0.3s;
-    border: none;
-    width: 105px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+.learn_more {
+    margin-top: 60px;
+    /* Space above the learn more text */
+    margin-bottom: 20px;
 }
 
+.learn-more-link {
 
-
-
-
-.palette_cover_page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Space above the learn more text */
+    font-family: 'Raleway';
+    /* Font for learn more text */
+    font-size: 25px;
+    /* Font size for learn more text */
+    text-align: center;
+    /* Right-align the text */
     width: 100%;
-    max-width: 1300px;
-    margin-top: 50px;
-    margin-left: 200px;
+    color: #000000;
+
 }
+
+.learn-more-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+    color: #7700ff;
+
+}
+
+
+.learn_more {
+    margin-top: 5px;
+    /* Space above the learn more text */
+    font-family: 'Raleway';
+    /* Font for learn more text */
+    font-size: 25px;
+    /* Font size for learn more text */
+    text-align: center;
+    /* Right-align the text */
+    width: 100%;
+    /* Full width to allow alignment */
+
+
+}
+
+
 
 .palette_cover_page img {
     width: 100%;
@@ -426,4 +473,8 @@ h4 {
 
 .navbar-links a:hover {
     color: #c37eff;
+}
+
+.personal_art-section {
+    margin-top: 80px;
 }

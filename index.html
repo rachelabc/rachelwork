@@ -23,11 +23,11 @@
     <header>
         <nav class="navbar">
             <div class="navbar-name">
-                <a href="#">RL</a>
+                <a href="index.html">RL</a>
             </div>
             <ul class="navbar-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="project.html">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -41,7 +41,7 @@
             <img src="Group 1_updated.png" alt="" class="headshot">
             <div class="button-container">
                 <button type="button" class="linkedin-button"
-                    onclick="window.location.href='https://www.instagram.com/rachey_rache15/?hl=en';">LINKEDIN</button>
+                    onclick="window.location.href='https://www.linkedin.com/in/rachelli15/?hl=en';">LINKEDIN</button>
                 <button type="button" class="resume-button"
                     onclick="window.location.href='https://www.instagram.com/rachey_rache15/?hl=en';">RESUME</button>
             </div>
@@ -70,19 +70,23 @@
     <img src="Group 2.png" alt="" class="mycatyayy">
 </div>
 -->
-    <div class="project-section">
-        <!-- Banner -->
-        <div class="banner" id="projects">
-            <p>PROJECTS •⩊•</p>
-        </div>
+    <div class="project-wrapper"> <!-- New wrapper div -->
+        <div class="project-section">
+            <!-- Banner -->
+            <div class="banner" id="projects">
+                <p>PROJECTS •⩊•</p>
+            </div>
 
+            <div class="learn_more">
+                <a href="project.html" class="learn-more-link">LEARN MORE &rarr;</a>
+            </div>
+        </div> <!-- Closing tag for .project-section -->
 
-
-        <div class="projects">
+        <div class="projects"> <!-- Start of .projects section -->
             <div class="project-item">
                 <img src="roompalette.png" alt="Room Palette Image" class="room_cover">
                 <button onclick="location.href='room_palette.html'" class="project-button">
-                    Room Palette Generative AI Project &rarr;
+                    Room Palette Generative AI &rarr;
                 </button>
             </div>
 
@@ -99,4 +103,13 @@
                     Room &rarr;
                 </button>
             </div>
+        </div> <!-- Closing tag for .projects section -->
+    </div> <!-- Closing tag for .project-wrapper -->
+
+
+
+    <div class="personal_art-section">
+        <!-- Banner -->
+        <div class="banner" id="projects">
+            <p>Other Works!</p>
         </div>
