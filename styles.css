@@ -19,8 +19,21 @@ body {
     flex-direction: row;
     /* Aligns the inner divs side by side */
     align-items: center;
+    margin-bottom: 50px;
+
+
 
 }
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    /* Stacks the image and button container vertically */
+    align-items: center;
+    /* Centers both the image and buttons */
+    text-align: center;
+}
+
 
 .highlight {
     color: #787373;
@@ -37,14 +50,12 @@ body {
 .headshot {
     width: 450px;
     height: auto;
-    margin-right: 60px;
+
+    margin-bottom: 20px;
 
 
 }
 
-.headshot:hover {
-    transform: scale(1.1);
-}
 
 
 .about {
@@ -58,9 +69,6 @@ body {
 
 }
 
-.about:hover {
-    transform: scale(1.1);
-}
 
 .extra-bold-title {
     margin-top: 10px;
@@ -106,38 +114,58 @@ body {
     font-family: 'Raleway', sans-serif;
 
     color: #000000;
-    font-size: 18px;
+    font-size: px;
     margin-left: 30px;
 
 }
 
+.button-container {
+    display: flex;
+    gap: 50px;
+    /* Adds space between the buttons */
+    justify-content: center;
+    /* Centers buttons within the container (optional) */
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-.linkedin-button {
-    display: block;
-    margin: 10px 20px 0 60px;
-    padding: 5px 30px;
-    background: linear-gradient(to right, #FFDFDF, #FFF7ED);
-    color: rgb(0, 0, 0);
-    stroke: #000000;
-    stroke-width: 1px;
-    border-radius: 20px;
+
+.linkedin-button,
+.resume-button {
+    margin: 0;
+
+    padding: 10px 20px;
+    /* Adjust padding if necessary */
+    background-color: #ffffff;
+    border-radius: 30px;
     cursor: pointer;
     font-size: 25px;
-    font-family: "Rambla";
-    width: 224px;
+    font-family: "Raleway";
     height: 46px;
-    letter-spacing: 2px;
+    width: 194px;
 
+    border: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
 }
+
+
 
 .linkedin-button:hover {
-    transform: scale(1.1);
+    background-color: #80568D;
+    color: #ffffff;
 }
+
+.resume-button:hover {
+    background-color: #80568D;
+    color: #ffffff;
+}
+
 
 .banner {
     display: flex;
     width: 80%;
-
+    margin-top: 200px;
     max-width: 1200px;
 
     height: 65px;
