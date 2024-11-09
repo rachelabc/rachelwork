@@ -98,7 +98,7 @@ body {
 .about .about-bio-two {
 
 
-    font-size: 20px;
+
     font-family: 'Raleway', sans-serif;
 
     color: #000000;
@@ -110,11 +110,11 @@ body {
 .about .about-bio-three {
 
 
-    font-size: 20px;
+
     font-family: 'Raleway', sans-serif;
 
     color: #000000;
-    font-size: px;
+    font-size: 18px;
     margin-left: 30px;
 
 }
