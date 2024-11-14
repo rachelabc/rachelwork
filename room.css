@@ -107,6 +107,8 @@ h1 {
     font-weight: 100px;
     /* Add space between lines for readability */
     color: #333;
+    line-height: 1.6;
+
 
 
 }
@@ -115,13 +117,50 @@ h2 {
     display: flex;
     font-family: 'Rambla', sans-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .role {
     font-size: 25px;
-    margin-top: 0px;
     color: #333333;
     font-family: 'Rambla', sans-serif;
+    line-height: 1.6;
+    font-weight: 100px;
+    margin-bottom: -10px;
 
 }
+
+.Design_title {
+    font-family: 'Rambla', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    /* Centers the heading */
+    position: relative;
+    /* Needed for pseudo-elements positioning */
+}
+
+.Design_title::before,
+.Design_title::after {
+    content: '';
+    /* Creates empty content for the pseudo-elements */
+    position: absolute;
+    top: 50%;
+    /* Centers the line vertically */
+    width: 40%;
+    /* Adjust the width of the line */
+    height: 2px;
+    /* Line thickness */
+    background-color: #333;
+    /* Line color */
+    transform: translateY(-50%);
+    /* Vertically centers the lines */
+}
+
+.Design_title::before {
+    left: 0;
+    /* Align the left line to the left */
+}
+
+.Design_title::after {
+    right: 0;
